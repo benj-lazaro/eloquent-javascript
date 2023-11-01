@@ -1,5 +1,5 @@
 # Eloquent JavaScript
-My solution(s) on the book's chapter exercises
+My solutions on the book's chapter exercises
 
 ## What is it?
-Based on the published No Starch Press book entitled <b>Eloquent JavaScript</b> (3rd Edition) by Marijn Harverbeke
+Exercise solutions on the No Starch Press book entitled <strong>Eloquent JavaScript</strong>,  3rd Edition by <strong>Marijn Harverbeke</strong>

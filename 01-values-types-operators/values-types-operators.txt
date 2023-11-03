@@ -1,0 +1,107 @@
+Values, Types and Operators
+---------------------------
+
+Values
+------
+- Refers to chunks of data that represents pieces of information
+
+- JavaScript Value Types
+    - Number                = 123, 23.1
+    - String                = "Hello World", 'This is a test', `1 + 1 = ${1 + 1}`
+    - Boolean               = true, false
+    - Undefined             = null, undefined
+
+- Values are created by
+    - Typing their name     = true, null
+    - Typing their value    = 123, 32.2, "Hello"
+
+
+Numbers
+-------
+- Refers to values that are of number type
+    - These values are numeric in nature
+    - e.g. 11, 123, 2312312, 2.323
+
+- JavaScript Arithmetic Operators
+    - Addition          +
+    - Subtratction      -
+    - Multiplication    *
+    - Division          /
+    - Modulo            %
+
+- JavaScript follows the order of precedence (MDAS)
+    - First, do all Multiplication then Division
+    - Then, do all Addition then Subtratction
+    - Override by enclosing an operation within a pair of ( )
+    
+- JavaScript has three (3) Special numbers
+    - These numbers do NOT behave like normal numbers
+    - They do NOT yield a mathematical result
+
+    - Positive Infinity     = Infinity
+    - Negative Infinity     = -Infinity
+    - Not A Number          = NaNr 
+
+
+Strings
+-------
+- It refers to value that represents text
+    - Value written by enclosing content in quotes 
+ 
+    - Use a pair of single ' ', double quotes " " or backticks ` `
+        - As along as the starting and ending quote MATCH
+
+    - Backticks offers flexibility through the use of String Template Literals
+        - Inserts special characters without the need use an escape operator \
+        
+        - Allows to span lines
+
+        - Allows to embed values or arithmetic result using ${}
+            - NOTE: Result will IMPLICITLY converted into a string
+
+- Strings can NOT work with arithmetic operators -, * or /
+    - The '+' operator concatenates two or more string values together as a single string
+
+
+Unary Operators
+---------------
+- Refers to operators that take one value
+    - Negate numerically    = -
+    - Negate logically      = !
+
+- NOT all Unary operators, use symbols (e.g. -, !)
+    - Identify the value's type = typeof()
+
+
+Boolean
+-------
+- It refers to the value that distinguishes two possibilities
+    - Only has two (2) values
+        - true
+        - false
+
+- JavaScript Comparison Operators
+    - Greater than              >
+    - Less than                 <
+    - Greater than or Equal to  >=
+    - Less than or Equal to     <=
+    - Equal                     ==
+    - Not Equal                 !=
+    - Strict equality           ===
+    - Strict non-equality       !==
+
+- NOTE: When using Comparison Operators on string values
+    - Uppercase letters are ALWAYS less than lowercase & non-alphabetic characters (!, -)
+
+    - JavaScript goes over the characters from left to right
+        - Compares the Unicode value 
+
+- There is one (1) value in JavaScript that is NOT equal to itself using Comparison Operators
+    - That is the NaN (Not A Number)
+    - NaN is the result of a nonsensical computation
+        - It is NOT equal to the result of any other nonsensical computations
+
+- JavaScript Logical Operators
+    - Logical AND   &&
+    - Logical OR    ||
+    - Logical NOT   !

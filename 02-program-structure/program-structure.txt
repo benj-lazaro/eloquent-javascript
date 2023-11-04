@@ -1,0 +1,36 @@
+Program Structure
+-----------------
+
+Expression and Statements
+-------------------------
+- Expression is a fragment of code that produces a value
+    - e.g. 22, "test", 1 + 1, 
+
+- Statement in JavaScript is an expression with a semicolon after it
+    - If an expression correspond to a sentence fragment
+        - A statement corresponds to a full sentence
+        - e.g. 1; false; 
+
+
+Bindings
+--------
+- Binding holds a reference to a value
+    - Also commonly referred as a Variable
+    - Two bindings can reference to the same value 
+
+- To define a binding
+    - Use the keyword 'let'
+    - Followed by the name of the binding
+    - Use the '=' operator followed by an initial value
+        - Defining a binding without a value
+        - It implicitly assigns the value of 'undefined'
+    
+    to assign an initial value
+        - Without giving an initial value, JavaScript assigns the value of 'undefined'
+
+  Syntax
+  ------
+  let <variableName> = value;
+
+- When defining a binding without giving an initial value
+    - Implicitly assigns a value of 'undefined'
